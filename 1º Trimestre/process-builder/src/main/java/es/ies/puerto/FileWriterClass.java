@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 public class FileWriterClass {
 
     public static void main(String[] args) {
-        if (args.length != 36) {
+        if (args.length != 34) {
             System.out.println("Usage: java FileWriterClass <filename> <message> <number_of_processes>");
             return;
         }
